@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #CCC;
+	width: 100%;
+}
+
+#contenido {
+	height: 550px;
+	width: 960px;
+	margin: auto;
+	position: relative;
+	background-color: #E8E8E8;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#galeria {
+}
+#galeria li {
+	list-style-type: none;
+	float: left;
+	height: 120px;
+	width: 170px;
+	margin: 5px;
+	position: relative;
+}
+#galeria li span {
+	height: 120px;
+	width: 170px;
+	position: relative;
+	margin: 0px;
+}
+#galeria li img {
+	position: relative;
+}
+
+#footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	width: 960px;
+	height: 67px;
+	position: relative;
+	background-image: url(../images/img05.jpg);
+	padding-top: 0px;
+	background-repeat: repeat-x;
+	margin: auto;
+}
+
+.shadow {
+	
+    -moz-box-shadow: 0px 0px 10px #111;
+    -webkit-box-shadow: 0px 0px 10px #111;
+    box-shadow: 0px 0px 10px #111;
+	
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')";
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111');
+}
+
+
+<style type="text/css">
+#apDiv1 {
+	position:relative
+	width:541px;
+	height:334px;
+	left: 217px;
+	top: 95px;
+}
+#apDiv3 {
+	position: absolute;
+	left: 392px;
+	top: 18px;
+	width: 190px;
+	height: 56px;
+	z-index: 1;
+}
+#apDiv4 {
+	position: absolute;
+	width: 217px;
+	height: 40px;
+	z-index: 1;
+	left: 40px;
+	top: 12px;
+}
+#apDiv5 {
+	position: absolute;
+	width: 140px;
+	height: 70px;
+	z-index: 2;
+	left: 286px;
+	top: -2px;
+}
+#apDiv7 {
+	position: absolute;
+	width: 140px;
+	height: 70px;
+	z-index: 3;
+	left: 451px;
+	top: -2px;
+}
+#apDiv8 {
+	position: absolute;
+	width: 140px;
+	height: 70px;
+	z-index: 4;
+	left: 616px;
+	top: -2px;
+}
+#apDiv9 {
+	position: absolute;
+	width: 140px;
+	height: 70px;
+	z-index: 5;
+	left: 779px;
+	top: -2px;
+}
+#apDiv2 {
+	position: absolute;
+	left: 471px;
+	top: 499px;
+	width: 40px;
+	height: 39px;
+}
+
+
+#copy {
+	height: 40px;
+	width: 960px;
+	top: 40px;
+	margin: auto;
+	background-color: #00FFB3;
+}
+
+h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	font-size: 9px;
+	padding-top: 15px;
+}
